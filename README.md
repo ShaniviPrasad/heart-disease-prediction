@@ -45,9 +45,21 @@ heart-disease-prediction/
 ├── .gitignore                  # Excludes security keys and virtual environments
 └── requirements.txt            # Environment dependencies
 
-🚀 Setup & Execution Guide
+##📊 System Architecture & Performance Specs
+Model Algorithm: Logistic Regression with L2 Regularization
+
+Precision Metric: ~97% Precision (Optimized to minimize False Positives)
+
+Data Security Standard: AES-256 (PyCA Fernet Cryptography)
+
+Decryption Scope: Strictly In-Memory (RAM) at Runtime
+
+Data Leakage Defense: Scaler fitted strictly on Training Split
+| **Encryption Standard** | **AES-256** (PyCA Fernet Cryptography) |
+
+##🚀 Setup & Execution Guide
 1. Clone & Setup Virtual Environment
-git clone [https://github.com/your-username/heart-disease-prediction.git](https://github.com/your-username/heart-disease-prediction.git)
+git clone [https://github.com/ShaniviPrasad/heart-disease-prediction.git]
 cd heart-disease-prediction
 
 # Create virtual environment
@@ -73,13 +85,5 @@ python train.py
 
 # Step D: Run End-to-End Inference Test
 python predict.py
-
-# 📊 Model Performance & Security Metrics
-
-| Metric / Feature | Implementation Details |
-| :--- | :--- |
-| **Model Algorithm** | Logistic Regression (L2 Regularization) |
-| **Precision Score** | **~97% Precision** (Minimizes False Positives) |
-| **Encryption Standard** | **AES-256** (PyCA Fernet Cryptography) |
 | **Decryption Scope** | Strictly In-Memory (RAM) at Runtime |
 | **Data Leakage Defense** | Scaler fitted strictly on Training Split |
