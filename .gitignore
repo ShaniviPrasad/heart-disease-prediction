@@ -1,0 +1,7 @@
+secret.key
+venv/
+.venv/
+__pycache__/
+*.pyc
+heart_cleveland_cleaned.csv
+heart_anonymized.csv
