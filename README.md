@@ -48,7 +48,7 @@ heart-disease-prediction/
 ##📊 System Architecture & Performance Specs
 Model Algorithm: Logistic Regression with L2 Regularization
 
-Precision Metric: ~97% Precision (Optimized to minimize False Positives)
+Precision Metric: ~84.62% Precision (Optimized to minimize False Positives)
 
 Data Security Standard: AES-256 (PyCA Fernet Cryptography)
 
